@@ -7,12 +7,10 @@
     <title>Task Manager</title>
 </head>
 <body>
-    {% for task in tasks%}
-    {{task.task_name}}<br>
-    {{task.catogory_name}}<br>
-    {{task.task_description}}<br>
-    {{task.is_urgent}}<br>
-    {{task.due_date}}<br>
-    {% endfor%}
+    <h1> i am part of the base template</h1>
+    {% block content%}
+    {%endblock%}
+
+
 </body>
 </html>
